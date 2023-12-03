@@ -15,6 +15,32 @@
     box-sizing: border-box;
     font-family: var(--body-font-family);
 }
+
+.nav-bar {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    height: 20px;
+    padding: 40px;  
+  }
+  .nav-bar > ul>li> p {
+    color: #fff ;
+    float: right;
+  }
+  .nav-bar> nav > ul {
+    list-style-type: none;
+    float: left;
+  }
+  .nav-bar > nav > ul > li {
+    display: inline-block;
+  }
+  .nav-bar > nav > ul > li > a{
+    text-decoration: none;
+    padding: 20px;
+  }
+  .nav-bar p{
+    float: right;
+  }
+  
 .hero{
     background-color: var(--secondary-color);
     min-height: 100vh;
@@ -434,6 +460,11 @@
     flex-direction: column;
     gap: 20px;
     padding: 10px;
+}
+.footer-left-content-1 span:hover{
+    background-color: var(--secondary-color);
+    color: #fff;
+    cursor: pointer;
 }
 .footer-left-content-2{
     flex: 1;
