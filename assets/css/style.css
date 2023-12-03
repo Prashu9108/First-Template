@@ -40,6 +40,15 @@
   .nav-bar p{
     float: right;
   }
+
+  .nav{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    gap: 5px;
+    font: normal;
+  }
   
 .hero{
     background-color: var(--secondary-color);
